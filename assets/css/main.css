@@ -93,6 +93,28 @@ h2,h3{
     letter-spacing: 0.25px;
     text-transform: uppercase;
 }
+@media screen and (max-width: 768px){
+    .my-jumbotron--text{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 25px;
+        letter-spacing: 0.5px;
+    }
+    .page-header h1{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 42px !important;
+        line-height: 25px !important;
+        letter-spacing: 0.5px !important;
+    }
+    .page-header .arrow-down{
+        margin: 40px 0px 80px 100px !important;
+    }
+}
 
 /* categories */
 .categories--box{
